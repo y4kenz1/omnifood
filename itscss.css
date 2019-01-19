@@ -1,0 +1,429 @@
+@font-face {
+    font-family: MyFont;
+    src: url(Thasadith-Regular.ttf);
+}
+
+* {
+    font-family: MyFont;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    height: 80px;
+}
+
+.logo {
+    float: left;
+    margin-left: 300px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+
+.logo-img{
+    width: 65px;
+    height: 65px;
+}
+
+.nav {
+    margin-left: 400px;
+    margin-top: 25px;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    color: rgb(156, 156, 156);
+}
+
+.nav-item {
+    float: left;
+    margin-right: 20px;
+}
+
+section, footer {
+    display: inline-block;
+}
+
+.background-image1{
+    width: 1519px;
+    height: 1100px;
+    opacity: 0.25;
+}
+
+.intro {
+    background-color: rgba(0, 0, 0, 1);
+    height: 1100px;
+    position: relative;
+}
+
+.intro-items {
+    position: absolute;
+    left: 200px;
+    top: 450px;
+}
+
+.intro-text {
+    font-size: 50px;
+    color: white;
+}
+
+.intro-button2 {
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 6px 20px;
+    border: 2px solid orange;
+    color: orange;
+    background-color: rgba(0, 0, 0, 0);
+}
+.intro-button2:hover {
+    background-color: orange;
+    color: white;
+}
+
+.intro-button1 {
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 6px 20px;
+    border: 2px solid orange;
+    color: white;
+    background-color: orange;
+}
+.intro-button1:hover {
+    background-color: orange;
+    color: white;
+}
+
+.about {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 350px;
+}
+
+.about-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.hr {
+    width: 60px;
+    margin-left: 46%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 35px;
+    text-align: center;
+}
+
+.column {
+    width: 200px;
+    float: left;
+    margin: 20px;
+}
+
+.columnp {
+    width: 200px;
+    float: left;
+    margin: 20px;
+    margin-right: 100px;
+}
+
+.columns {
+    text-align: left;
+}
+
+.example-photo {
+    width: 379.5px;
+    height: 379.5px;
+    float: left;    
+}
+
+.mobile-app {
+    margin-top: 20px;
+    margin-left: 450px;
+}
+
+.mobile-app-img {
+    height: 580px;
+    width: 280px;
+    float: left;
+}
+
+.mobile-app-text {
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 400px;
+}
+
+.number {
+    width: 50px;
+    height: 50px;
+}
+
+.app-text {
+    display: inline;
+    margin-left: 10px;
+}
+
+.download {
+    display: inline;
+    float: left;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.title-app {
+    font-size: 35px;
+    text-align: center;
+    margin-right: 300px;
+}
+
+.hr-app {
+    width: 60px;
+    margin-left: 33%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cities-icon, .prices-icon {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 8px;
+    margin-left: 11px;
+}
+
+.city-name {
+    margin: 10px;
+}
+
+.twitter-icon {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 8px;
+    margin-left: 14px;
+}
+
+.cities-text, customers-text {
+    display: inline;
+    float: left;
+    margin-right: 30px;
+}
+
+.city-photo {
+    width: 200px;
+    height: 180px;
+}
+
+.cities {
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+.cities-link {
+    display: inline;
+    float: left;
+    margin-right: 30px;
+    color: orange;
+}
+
+.customers-icon {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.customer {
+    margin: 10px;
+}
+
+.customers {
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 1);
+    height: 500px;
+    position: relative;
+}
+
+.background-image2 {
+    width: 1519px;
+    height: 500px;
+    opacity: 0.25;
+}
+
+.customers-items {
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    color: white;
+}
+
+.customer {
+    margin-left: 0px;
+}
+
+.columns-cities {
+    text-align: left;
+}
+
+.prices {
+    background-color: #DCDCDC;
+    width: 1519px;
+    height: 500px; 
+}
+
+.top-block {
+    background-color: #E8E8E8;
+    width: 250px;
+    height: 125px;
+}
+
+.middle-block {
+    background-color: white;
+    width: 250px;
+    height: 140px;
+}
+
+.bottom-block {
+    background-color: white;
+    width: 250px;
+    height: 60px;
+    text-align: center
+}
+
+.month, .price {
+    display: inline;
+    color: orange;
+}
+
+.price {
+    font-size: 50px;
+}
+
+.price-name {
+    margin: 5px;
+    font-size: 20px;
+}
+
+.prices-icon {
+    margin-left: 10px;
+}
+
+.prices-text {
+    width: 250px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+
+.price-name, .price, .price-text {
+    margin-left: 10px;
+}
+
+.price-button {
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 6px 20px;
+    border: 2px solid orange;
+    color: orange;
+    background-color: rgba(0, 0, 0, 0);
+}
+.price-button:hover {
+    background-color: orange;
+    color: white;
+}
+
+.prices-column {
+    width: 200px;
+    float: left;
+    margin: 20px;
+}
+
+.columnsp {
+    text-align: left;
+    margin-left: 320px;     
+}
+
+.top {
+    margin-left: 100px;
+}
+
+.input, .input-text {
+    float: left;
+    width: 600px;
+    height: 30px;
+    margin-right: 400px;
+    margin-bottom: 20px;
+}
+
+.feedback {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.input-text {
+    height: 50px;
+}
+
+.form-text {
+    float: left;
+    margin-right: 100px;
+    margin-left: 250px;
+    width: 150px;
+}
+
+.submit {
+    float: right;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    width: 1519px;
+}
+
+.nav-footer {
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    float: left;
+    text-align: center;
+}
+
+.nav-footer-item {
+    float: left;
+    margin-right: 20px;
+}
+
+.socials-nav {
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    float: right;
+    display: inline;
+    text-align: center;
+}
+
+.social-item {
+    float: left;
+    margin-right: 20px;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 20px;
+}
