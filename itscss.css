@@ -104,11 +104,15 @@ section, footer {
     height: 30px;
 }
 
-.hr {
+hr {
     width: 60px;
     margin-left: 46%;
     margin-top: 10px;
     margin-bottom: 10px;
+    border: none;
+    color: orange;
+    background-color: orange;
+    height: 2px;
 }
 
 .about-text {
@@ -266,6 +270,7 @@ section, footer {
     left: 200px;
     top: 50px;
     color: white;
+    margin-left: 200px;
 }
 
 .customer {
@@ -384,6 +389,20 @@ section, footer {
 .submit {
     float: right;
     margin-bottom: 20px;
+    margin-right: 900px
+}
+
+.submit {
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 6px 20px;
+    border: 2px solid orange;
+    color: orange;
+    background-color: rgba(0, 0, 0, 0);
+}
+.submit:hover {
+    background-color: orange;
+    color: white;
 }
 
 footer {
