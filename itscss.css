@@ -94,9 +94,10 @@ section, footer {
 }
 
 .about {
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: center;
     margin-left: 350px;
+    margin-bottom: 40px;
 }
 
 .about-icon {
